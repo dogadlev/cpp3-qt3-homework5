@@ -25,7 +25,7 @@
          </font>
         </property>
         <property name="text">
-         <string>00:00:00</string>
+         <string>0.0</string>
         </property>
        </widget>
       </item>
@@ -74,5 +74,22 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pb_clear</sender>
+   <signal>clicked()</signal>
+   <receiver>tb_info</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>252</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

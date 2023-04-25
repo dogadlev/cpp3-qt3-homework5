@@ -21,6 +21,6 @@ private:
     Stopwatch *sWatch;
 
 public slots:
-    void sendStart();
+    void getStartStop(void);
 };
 #endif // MAINWINDOW_H
